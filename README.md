@@ -94,8 +94,8 @@ a &= \begin{bmatrix} 0 \\ -1 \\ -1 \\ -1 \end{bmatrix}, &
 b &= \begin{bmatrix} 1 \\ 2 \left(\frac{1}{r} + 1\right) \\
 2 \left(\frac{1}{r} + 1\right) \\ 2 \left(\frac{1}{r} + 1\right) \\ 1 \end{bmatrix}, &
 c &= \begin{bmatrix} -1 \\ -1 \\ -1 \\ 0 \end{bmatrix}, &
-d &= \begin{bmatrix} T_{0} \\ T_{1} + 2 \left(\frac{1}{r} - 1\right) T_{2} + T_{3} \\
-T_{2} + 2 \left(\frac{1}{r} - 1\right) T_{3} + T_{4} \\ T_{3} + 2 \left(\frac{1}{r} - 1\right) T_{4} + T_{5} \\
+d &= \begin{bmatrix} T_{0} \\ T_{1}^{j} + 2 \left(\frac{1}{r} - 1\right) T_{2}^{j} + T_{3}^{j} \\
+T_{2}^{j} + 2 \left(\frac{1}{r} - 1\right) T_{3}^{j} + T_{4}^{j} \\ T_{3}^{j} + 2 \left(\frac{1}{r} - 1\right) T_{4}^{j} + T_{5}^{j} \\
 T_{L} \end{bmatrix}
 \end{aligned}$$
 ```
