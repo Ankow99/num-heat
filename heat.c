@@ -37,15 +37,13 @@ int main() {
     double TL = 1000.0;
     int numTimeSteps = 2000;
     int numSpatialSteps = 100;
+    double r = 2.0;
 
     // Calculate dx
     double dx = L / (numSpatialSteps - 1);
 
     // Calculate dt based on the stability condition
-    double dt = 2.0 * dx * dx / alpha;
-
-    // Calculate r
-    double r = alpha * dt / (dx * dx);
+    double dt = r * dx * dx / alpha;
 
     // Initialize gnuplot
     FILE *gnuplotPipe = popen("gnuplot -persist", "w");
